@@ -1,0 +1,6 @@
+
+
+
+-------------------------------------------------------
+const saltRounds = 10
+const checkpassword = await bcrypt.hash(password, saltRounds)
